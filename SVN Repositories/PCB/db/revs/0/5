@@ -1,0 +1,29 @@
+id: 0-5.0.r5/0
+type: dir
+count: 0
+cpath: /Gas_sensors
+copyroot: 0 /
+
+PLAIN
+K 11
+Gas_sensors
+V 14
+dir 0-5.0.r5/0
+K 21
+STX165R_UAVCAN_module
+V 17
+dir 0-1.0.r4/6163
+END
+ENDREP
+id: 0.0.r5/173
+type: dir
+pred: 0.0.r4/6389
+count: 5
+text: 5 69 91 91 ab2d1e8e2108058bc39d794d5b994c38
+cpath: /
+copyroot: 0 /
+
+_0.0.t4-4 add-dir false false false /Gas_sensors
+
+
+173 299
