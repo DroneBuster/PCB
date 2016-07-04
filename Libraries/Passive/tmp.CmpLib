@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<TComponentSet id="0" CurrentRevColumnWidth="100" NameColumnWidth="300" NextRevColumnWidth="100">
+  <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+  <VaultName>Altium Content Vault</VaultName>
+  <RequiredParameters>
+    <TRequiredParameter id="1" ColumnWidth="100">
+      <HRID>Comment</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="2" ColumnWidth="100">
+      <HRID>ComponentLink1Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="3" ColumnWidth="100">
+      <HRID>ComponentLink1URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="4" ColumnWidth="100">
+      <HRID>ComponentLink2Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="5" ColumnWidth="100">
+      <HRID>ComponentLink2URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="6" ColumnWidth="100">
+      <HRID>Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="7" ColumnWidth="100">
+      <HRID>Inductance</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="8" ColumnWidth="100">
+      <HRID>Manufacturer</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="9" ColumnWidth="100">
+      <HRID>PackageReference</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="10" ColumnWidth="100">
+      <HRID>PartNumber</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+  </RequiredParameters>
+  <RequiredModels>
+    <TRequiredModel id="11" ColumnWidth="100">
+      <HRID>PCBLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="12" ColumnWidth="100">
+      <HRID>SCHLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>SCHLIB</ModelKind>
+    </TRequiredModel>
+  </RequiredModels>
+  <ModelLinks>
+    <TModelLink id="13">
+      <HRID>PCC-0029-00195-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>4CBEBAC5-D153-4512-9035-A7393E3DBB9F</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>00094648-1D47-4A02-947C-2ADF9FAFA2E4</RevisionGUID>
+    </TModelLink>
+    <TModelLink id="14">
+      <HRID>SYM-0029-00038-1</HRID>
+      <VaultGUID>B7D15EC3-160A-466F-A46C-7801FE6295A7</VaultGUID>
+      <ItemGUID>3F8EE715-0990-40E7-B65E-B7D49F46E974</ItemGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <RevisionGUID>31FBC7AA-7444-42B7-B4A7-B29D7EDEA885</RevisionGUID>
+    </TModelLink>
+  </ModelLinks>
+  <PartChoiceListLinks StateIndex="2">
+    <ComponentSet href="#0"/>
+  </PartChoiceListLinks>
+  <TopGroup id="15" StateIndex="2" Collapsed="false">
+    <GUID>0CA845C2-F5D7-43BC-9681-265819740980</GUID>
+    <Parameters/>
+    <ModelChoices/>
+    <ComponentSet href="#0"/>
+    <Groups/>
+    <ComponentDefinitions>
+      <TComponentDefinition StateIndex="2">
+        <HRID>CMP-1386-00001</HRID>
+        <GUID>7644E4CF-C220-4E26-A7C3-09A401024BFD</GUID>
+        <ParentGroup href="#15"/>
+        <Parameters>
+          <TParameter>
+            <RequiredParameter href="#1"/>
+            <Value>76877630</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#6"/>
+            <Value>SMD Power Inductor WE-PD2 HV, L=1000 ÂµH</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#7"/>
+            <Value>1000 ÂµH</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>Manufacturer URL</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#9"/>
+            <Value>1054</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#10"/>
+            <Value>76877630</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#8"/>
+            <Value>Wuerth Elektronik</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#5"/>
+            <Value>http://www.we-online.de/katalog/media/pdf/76877630.pdf</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#4"/>
+            <Value>Datasheet</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#3"/>
+            <Value>http://www.we-online.com</Value>
+          </TParameter>
+        </Parameters>
+        <ModelChoices>
+          <TModelChoice>
+            <RequiredModel href="#11"/>
+            <ModelLink href="#13"/>
+          </TModelChoice>
+          <TModelChoice>
+            <RequiredModel href="#12"/>
+            <ModelLink href="#14"/>
+          </TModelChoice>
+        </ModelChoices>
+        <ItemHRID>CMP-1386-00001</ItemHRID>
+        <RevisionGUID>A6CBD1FA-CF38-49A6-9229-C15C7B28E720</RevisionGUID>
+        <RevisionId>1</RevisionId>
+      </TComponentDefinition>
+    </ComponentDefinitions>
+  </TopGroup>
+  <ShowReleaseState>false</ShowReleaseState>
+</TComponentSet>

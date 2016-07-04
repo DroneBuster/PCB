@@ -1,0 +1,13 @@
+Thus the SPI mode 0 (CPHA=0, CPOL=0) is the proper setting to control MMC/SDC, 
+but mode 3 (CPHA=1, CPOL=1) also works as well in most case. A pull-up on the DO-pin cannot be omited, (butinas)
+or some cards will fail to initialize.
+
+
+Because DI and DO are normally high, they should be pulled-up. According to SDC/MMC specs, 
+from 50k to 100k ohms is recommended to the value of pull-up registers
+
+
+A low ESR capacitor, such as OS-CON, can eliminate the voltage dip dratiscally like shown in 'C'. 
+However the low ESR capacitor can cause an oscillation of LDO regulator.
+
+http://elm-chan.org/docs/mmc/mmc_e.html

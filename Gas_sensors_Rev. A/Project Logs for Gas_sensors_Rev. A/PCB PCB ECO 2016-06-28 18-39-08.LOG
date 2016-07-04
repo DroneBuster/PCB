@@ -1,0 +1,6 @@
+Added Component: Designator=J8(BM04B-GHS-TBT)
+Added Pin To Net: NetName=NetF3_1 Pin=J8-1
+Added Pin To Net: NetName=NetJ3_2 Pin=J8-2
+Added Pin To Net: NetName=NetJ3_3 Pin=J8-3
+Added Pin To Net: NetName=GND Pin=J8-4
+Added Member To Class: ClassName=Processing Member=Component J8 BM04B-GHS-TBT

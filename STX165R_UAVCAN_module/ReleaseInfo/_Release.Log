@@ -1,0 +1,4 @@
+Record=FileHeader|FileType=ReleaseLog|Version=1
+
+Record=LogMessage|ConfigurationName=Default Configuration|FullItemId=PDE-001-0001-A.1
+
