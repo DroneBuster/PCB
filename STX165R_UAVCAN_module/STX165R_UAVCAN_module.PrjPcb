@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DQTLHCVV
 
 [Document3]
-DocumentPath=Generta_project.OutJob
+DocumentPath=Generate_project.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -484,7 +484,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Samsung M2070 Series (USB001)
+TargetPrinter=Samsung SCX-4x21 Series (USB002)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
