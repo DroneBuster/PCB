@@ -1,2 +1,0 @@
-Removed Pin From Net: NetName=STATUS_LED Pin=U7-19
-Added Pin To Net: NetName=STATUS_LED Pin=U7-41

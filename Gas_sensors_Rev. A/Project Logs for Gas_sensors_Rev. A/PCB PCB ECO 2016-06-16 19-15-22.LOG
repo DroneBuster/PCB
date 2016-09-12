@@ -1,5 +1,0 @@
-Added Component: Designator=A2(Electrochemical)
-Added Pin To Net: NetName=NetA2_C Pin=A2-C
-Added Pin To Net: NetName=NetA2_R Pin=A2-R
-Added Pin To Net: NetName=NetA2_S Pin=A2-S
-Added Member To Class: ClassName=Electrochemical_sensors Member=Component A2 Electrochemical sensors
