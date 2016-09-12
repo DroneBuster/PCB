@@ -1,0 +1,51 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~232|Field=Description~String~Description~87|Field=Designator~String~Designator~87|Field=Footprint~String~Footprint~87|Field=LibRef~String~LibRef~87|Field=Quantity~Integer~Quantity~87|Field=Value~String~Value~88|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Gas_sensors_Rev. A.PrjPcb|ReportField=ProjectFullPath~C:\UAV\PCB\Gas_sensors_Rev. A\Gas_sensors_Rev. A.PrjPcb|ReportField=Title~Bill of Materials For Project [Gas_sensors_Rev. A.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~109|ReportField=ReportTime~16:11:44|ReportField=ReportDate~2016-07-18|ReportField=ReportDateTime~2016-07-18 16:11:44|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2016-07-18|ReportField=CurrentTime~16:07:30|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\UAV\PCB\Gas_sensors_Rev. A\Gas_sensors_top.SchDoc|ReportField=DocumentName~Gas_sensors_top.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2016-07-04|ReportField=Organization~|ReportField=ProjectName~Gas_sensors_Rev. A.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Gas_sensors_Rev. A.PrjPcb|ReportField=DataSourceFullPath~C:\UAV\PCB\Gas_sensors_Rev. A\Gas_sensors_Rev. A.PrjPcb
+1|Electrochemical sensors||A1, A2|Electrochemical|Electrochemical_sensor|2|
+2|Capacitor||C1, C2, C3, C4, C5, C6, C7, C11, C13, C14, C15, C16, C22, C23, C24|0603_CAP|Capacitor|15|0.1uF
+3|Capacitor||C8, C9, C12, C17|1206_CAP|Capacitor|4|10uF
+4|Capacitor||C10|0603_CAP|Capacitor|1|0.47uF
+5|Capacitor||C18, C20|0603_CAP|Capacitor|2|15pF
+6|Capacitor||C19, C21|0603_CAP|Capacitor|2|2pF
+7|PMEG3010ER|Schottky Diode|D1, D2, D3|SOD123W|D Schottky|3|
+8|APG1608SEKC/T|LED, SMT, 0603(1608), 0.25mm Tthickness, Super Bright Orange|DS1|KING-LED0603-25-ORANGE_V|CMP-0239-00002-1|1|
+9|2A||F1|0603_RES|Fuse|1|
+10|Fuse||F2, F3|0603_RES|Fuse|2|
+11|MiCS-6814||IC1|MiCS|MiCS-6814|1|
+12|MiCS-2614||IC2|MiCS|MiCS-5524|1|
+13|43650-0224|Molex - Micro-Fit 3.0 Series connector,  3.00mm (0.118") pitch header, 2 positions.|J2|43650-0224|HEADER_POS2_?43650-0224|1|
+14|67503-1020|USB, MINI, SMD, RA KME04-USBMU03A01|J3|MOLX-67503-1020_V|CMP-0411-00002-1|1|
+15|Mirco SD socket||J4|HRS_DM3CS-SF|Micro_SD|1|
+16|BM06B-GHS-TBT|JST GH top entry SMD connector|J5|BM06B-GHS-TBT|BM06B-GHS-TBT|1|
+17|BM04B-GHS-TBT|JST GH top entry SMD connector|J6, J7, J8|BM04B-GHS-TBT|BM04B-GHS-TBT|3|
+18|LTMM-105-02-TX-D|Shrouded Header & Stacker, Through-Hole, Vertical, -55 to 105 degC, 2 mm Pitch, 10-Pin, Male, RoHS|P1|SMTC-LTMM-105-02-XX-D|CMP-1028-00010-1|1|
+19|N-channel MOSFET||Q1|SOT95P230X110-3M|MOSFET-N|1|
+20|Resitor||R1, R2, R6, R8, R11, R12, R15, R17, R35, R36, R37, R38, R41, R42, R43, R44, R45, R46, R50, R51, R52|0603_RES|Resitor|21|10K
+21|Resitor||R3, R4|0603_RES|Resitor|2|15K
+22|Resitor||R5, R7, R14, R16|0603_RES|Resitor|4|10R
+23|Resitor||R9|0603_RES|Resitor|1|110K
+24|Resitor||R10, R18|0603_RES|Resitor|2|19.41K
+25|Resitor||R13|0603_RES|Resitor|1|200K
+26|Resitor||R19|0603_RES|Resitor|1|10M
+27|Resitor||R20|0603_RES|Resitor|1|1M2
+28|Resitor||R21, R30, R31, R32|0603_RES|Resitor|4|100K
+29|Resitor||R22|0603_RES|Resitor|1|820R
+30|Resitor||R23|0603_RES|Resitor|1|6k8
+31|Resitor||R24|0603_RES|Resitor|1|27R
+32|Resitor||R25|0603_RES|Resitor|1|130R
+33|Resitor||R26|0603_RES|Resitor|1|82R
+34|Resitor||R27, R28|0603_RES|Resitor|2|22R
+35|Resitor||R29|0603_RES|Resitor|1|1.5K
+36|Resitor||R33, R34, R39, R40|0603_RES|Resitor|4|100R
+37|Resitor||R47|0603_RES|Resitor|1|120R
+38|Resitor||R48, R49|0603_RES|Resitor|2|4.7K
+39|147873-1|Single-Pole, Single-Throw Switch|S1, S2|147873-1|SW-SPST|2|
+40|TSZ124||U1|TSOP65P640X120-14M|TSZ124|1|
+41|TSZ121||U2|SOT95P280X145-5M|TSZ121|1|
+42|SN74LV4051A|Analog Multiplexer/Demultiplexer|U3|TSOP65P640X120-16M|SN74LV4051A|1|
+43|LD1086D2T50TR|1.5A, Low Drop Positive Voltage Regulator, 5.0V, 3-Pin D2PAK, Tape and Reel|U4|TO-263_N|CMP-0244-00124-1|1|
+44|REF3025AIDBZR|2.5 V, 50 ppm / degC, 50 uA Series (Bandgap) Voltage Reference, -40 to 125 degC, 3-pin SOT-23 (DBZ), Green (RoHS & no Sb/Br)|U5|TI-DBZ3_N|CMP-0367-00155-1|1|
+45|LD1117AS33TR|1A, Low Drop Positive Voltage Regulator, 3.3V, 4-Pin SOT-223, Tape and Reel|U6|SOT-223_M|CMP-0244-00316-1|1|
+46|STM32F103CBT6|ARM Cortex-M3 32-bit MCU, 128 KB Flash, 20 KB Internal RAM, 37 I/Os, 48-pin LQFP, -40 to 85 degC, Tray|U7|STM-LQFP48_L|CMP-0237-00250-3|1|
+47|MAX3051||U8|SOIC127P600X175-8M|MAX3051|1|
+48|BME280|Combined humidity and pressure sensor|U9|BME280|BME280|1|
+49|ABS07-32.768KHz-T|Crystal, 32.768 kHz, 12.5 pF, -40 to 85 degC, SMD Low Profile 3.2 x 1.5 x 0.9 mm, Tape and Reel|X1|ABRA-ABS07-2_V|CMP-0447-00001-2|1|
+50|TSX-3225 16.0000MF09Z-AC3||Y1|TSX-3225|TSX-3225 16.0000MF09Z-AC3|1|
