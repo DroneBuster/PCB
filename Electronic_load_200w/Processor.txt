@@ -1,0 +1,89 @@
+Configuration	Processor
+STM32CubeMX 	4.3.0
+Date	11/16/2014
+MCU	STM32F103RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC	OUT1	DAC_OUT1	PA4
+SPI1	Full-Duplex-Master	SPI1_MISO	PA6
+SPI1	Full-Duplex-Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex-Master	SPI1_SCK	PA5
+SPI2	Full-Duplex-Master	SPI2_MISO	PB14
+SPI2	Full-Duplex-Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex-Master	SPI2_SCK	PB13
+SYS	JTAG(5-pin)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG(5-pin)	SYS_JTDI	PA15
+SYS	JTAG(5-pin)	SYS_JTDO-TRACESWO	PB3
+SYS	JTAG(5-pin)	SYS_JTMS-SWDIO	PA13
+SYS	JTAG(5-pin)	SYS_JTRST	PB4
+SYS	HSE-External-Oscillator	SYS_OSC_IN	PD0-OSC_IN
+SYS	HSE-External-Oscillator	SYS_OSC_OUT	PD1-OSC_OUT
+TIM1	Encoder-Interface	TIM1_CH1	PA8
+TIM1	Encoder-Interface	TIM1_CH2	PA9
+TIM2	PWM-Generation	TIM2_CH1_ETR	PA0-WKUP
+TIM2	PWM-Generation	TIM2_CH2	PA1
+TIM2	PWM-Generation	TIM2_CH3	PA2
+TIM2	PWM-Generation	TIM2_CH4	PA3
+USART1	Asynchronous	USART1_RX	PB7
+USART1	Asynchronous	USART1_TX	PB6
+
+
+
+Pin Nb	PINs	FUNCTIONs
+5	PD0-OSC_IN	SYS_OSC_IN
+6	PD1-OSC_OUT	SYS_OSC_OUT
+14	PA0-WKUP	TIM2_CH1_ETR
+15	PA1	TIM2_CH2
+16	PA2	TIM2_CH3
+17	PA3	TIM2_CH4
+20	PA4	DAC_OUT1
+21	PA5	SPI1_SCK
+22	PA6	SPI1_MISO
+23	PA7	SPI1_MOSI
+24	PC4	GPIO_Output
+30	PB11	GPIO_Output
+33	PB12	GPIO_Output
+34	PB13	SPI2_SCK
+35	PB14	SPI2_MISO
+36	PB15	SPI2_MOSI
+37	PC6	GPIO_Input
+41	PA8	TIM1_CH1
+42	PA9	TIM1_CH2
+43	PA10	GPIO_Input
+46	PA13	SYS_JTMS-SWDIO
+49	PA14	SYS_JTCK-SWCLK
+50	PA15	SYS_JTDI
+55	PB3	SYS_JTDO-TRACESWO
+56	PB4	SYS_JTRST
+58	PB6	USART1_TX
+59	PB7	USART1_RX
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Processor
+Project Folder : D:\PCB\Electronic_load_200w
+Toolchain / IDE : 
+Firmware Package Name and Version : 
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per IP : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
