@@ -89,6 +89,21 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=2FDCB486-2F06-412C-9D61-E21F3D729D36
+Description=Variant of STX165R_UAVCAN_UBSOTG
+AllowFabrication=0
+ParameterCount=0
+VariationCount=3
+Variation1=Designator=R3|UniqueId=\TJXMQMYQ|Kind=1|AlternatePart= 
+Variation2=Designator=R19|UniqueId=\EYBRLYNC|Kind=1|AlternatePart= 
+Variation3=Designator=R18|UniqueId=\BWEDLDTR|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for STX165R_UAVCAN_module\Design Rule Check - PCB_main.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
