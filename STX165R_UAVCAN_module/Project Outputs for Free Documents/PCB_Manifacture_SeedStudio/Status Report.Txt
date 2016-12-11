@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB_main.PcbDoc]
+   Generated File[STX165R_Control.TXT]
+   Generated File[STX165R_Control.LDP]
+   Generated File[STX165R_Control.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:13:10 On 2016-12-11

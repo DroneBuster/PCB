@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Flir_PCB_Panel(90x90).PcbDoc]
+   Generated File[Flir_Brakeout.TXT]
+   Generated File[Flir_Brakeout.LDP]
+   Generated File[Flir_Brakeout.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:45:59 On 2016-12-11
